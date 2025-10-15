@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Crestz Hackathon Brochure</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;400&display=swap");
+
+      body {
+        background-color: #000000;
+        color: #fafafa;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 850px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #0d0d0d;
+        border: 2px solid #e72727;
+        box-shadow: 0 0 25px rgba(231, 39, 39, 0.5);
+      }
+
+      /* --- TYPOGRAPHY & THEME --- */
+      .header-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 80px;
+        color: #e72727;
+        text-shadow: 0 0 5px #e72727, 0 0 15px #e72727, 0 0 30px #b40000;
+        text-align: center;
+        letter-spacing: 2px;
+        margin: 20px 0 0 0;
+        border-bottom: 4px solid #e72727;
+        padding-bottom: 15px;
+      }
+
+      .tagline {
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        margin: 10px 0 30px 0;
+        font-style: italic;
+      }
+
+      h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 32px;
+        color: #fafafa;
+        border-bottom: 2px solid #e72727;
+        padding-bottom: 10px;
+        margin-top: 40px;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        color: #e72727;
+      }
+
+      strong {
+        font-weight: bold;
+        color: #e72727;
+      }
+
+      a {
+        color: #e72727;
+        text-decoration: none;
+      }
+
+      /* --- LAYOUT & SECTIONS --- */
+      .section {
+        padding: 20px 0;
+        margin-bottom: 20px;
+      }
+
+      .two-column {
+        display: flex;
+        gap: 30px;
+        align-items: flex-start;
+      }
+
+      .two-column > div {
+        flex: 1;
+      }
+
+      .image-placeholder {
+        width: 100%;
+        height: 250px;
+        background-color: #1a1a1a;
+        border: 3px dashed #e72727;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #666;
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .image-placeholder-large {
+        height: 350px;
+      }
+
+      /* --- LISTS & TABLES --- */
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      ul li {
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="%23E72727"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>')
+          no-repeat left 5px;
+        padding-left: 25px;
+        margin-bottom: 10px;
+      }
+
+      .sponsorship-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      .sponsorship-table th,
+      .sponsorship-table td {
+        border: 1px solid #444;
+        padding: 12px;
+        text-align: left;
+      }
+
+      .sponsorship-table th {
+        background-color: #e72727;
+        color: #000;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .sponsorship-table td:first-child {
+        font-weight: bold;
+      }
+
+      /* --- FOOTER --- */
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+        border-top: 2px solid #e72727;
+        padding-top: 20px;
+      }
+
+      .footer p {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="header-title">CODE CRESTZ</h1>
+        <p class="tagline">
+          From the Upside Down of Innovation, a 32-Hour Hackathon Emerges.
+        </p>
+      </header>
+
+      <div class="image-placeholder image-placeholder-large">
+        <p>
+          Main Event Banner /<br />
+          Themed Group Picture Placeholder
+        </p>
+      </div>
+
+      <section class="section">
+        <h2>A Transmission from the Hawkins AV Club</h2>
+        <p>
+          Cloud Native Durgapur isn’t just a tech community—it’s a movement. We
+          are a passionate collective of developers, creators, and cloud
+          enthusiasts from across Eastern India, united by a shared drive to
+          build, experiment, and grow. We blend hands-on learning with
+          real-world building, organizing workshops, bootcamps, and hackathons
+          that empower the thinkers of tomorrow. At Cloud Native Durgapur, we
+          believe tech should be inclusive, practical, and truly
+          community-powered.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>The Mission, Should You Choose to Accept It</h2>
+        <div class="two-column">
+          <div>
+            <h3>Enter the Upside Down of Code</h3>
+            <p>
+              CODE CRESTZ, presented by <strong>Cloud Native Durgapur</strong>,
+              is a 32-hour offline hackathon set to unite the brightest minds to
+              solve real-world problems. This isn't just about coding; it's
+              about collaboration, creativity, and pushing the boundaries of
+              technology. Dive deep into challenges, learn from industry
+              experts, and turn your strange ideas into extraordinary projects.
+            </p>
+            <ul>
+              <li><strong>Date:</strong> Tentatively March 2026</li>
+              <li><strong>Duration:</strong> 32 Hours of Intense Innovation</li>
+              <li><strong>Location:</strong> Kolkata</li>
+              <li><strong>Expected Hackers:</strong> 500+</li>
+              <li><strong>Organizers:</strong> CNCF Durgapur & OSSDC</li>
+            </ul>
+          </div>
+          <div class="image-placeholder">
+            <p>
+              Placeholder for a picture of a previous event's crowd or venue.
+            </p>
+          </div>
+        </div>
+        <h3>Solve the Mystery with these Themes:</h3>
+        <ul>
+          <li>Cloud Native Technologies & DevOps</li>
+          <li>AI/ML</li>
+          <li>Web3</li>
+          <li>Sustainable Tech</li>
+          <li>Open Innovation Challenges</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Previously on... Code for Change</h2>
+        <div class="two-column">
+          <div class="image-placeholder">
+            <p>
+              Placeholder for a picture of winners or a notable moment from
+              "Code for Change".
+            </p>
+          </div>
+          <div>
+            <p>
+              Our previous hackathon,
+              <strong>Code for Change – Season 1</strong>, was a remarkable
+              success. Building on that strong foundation, we’re thrilled to
+              present CODE CRESTZ—a bigger, bolder chapter.
+            </p>
+            <ul>
+              <li><strong>1,200+</strong> Registrations from across India.</li>
+              <li>
+                <strong>100+</strong> On-site participants engaged in 24 hours
+                of intense coding.
+              </li>
+              <li>
+                Vibrant community engagement through workshops and mentorship.
+              </li>
+              <li>
+                Successfully supported by partners like Devfolio and ETHIndia.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Join Our Party: Why Partner With Us?</h2>
+        <p>
+          Aligning with CODE CRESTZ means more than just placing your logo. It
+          means connecting with the next generation of tech leaders and
+          innovators.
+        </p>
+        <ul>
+          <li>
+            <strong>Hyper-Targeted Exposure:</strong> Reach over 600+ highly
+            engaged tech enthusiasts from Durgapur, Kolkata, Bangalore, and
+            beyond.
+          </li>
+          <li>
+            <strong>Engaging Brand Presence:</strong> Go beyond logos with
+            mentorship slots, custom shoutouts, and digital creatives across all
+            our channels.
+          </li>
+          <li>
+            <strong>Build Community Goodwill:</strong> Align your brand with a
+            student-powered movement that fosters genuine innovation and
+            learning.
+          </li>
+          <li>
+            <strong>Access Top Talent:</strong> Witness firsthand the creative
+            power of emerging developers and identify potential recruits.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>The Starcourt Mall: Sponsorship Tiers</h2>
+        <table class="sponsorship-table">
+          <thead>
+            <tr>
+              <th>Tier</th>
+              <th>Contribution</th>
+              <th>Perks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Title Sponsor</strong></td>
+              <td>₹50,000</td>
+              <td>
+                30-min speaker/mentor slot, top-tier logo placement, premium
+                mentions, dedicated shoutout reels & stories.
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Platinum Sponsor</strong></td>
+              <td>₹25,000</td>
+              <td>
+                Logo on website & posters, digital shoutouts, significant event
+                mentions, branded content opportunities.
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Gold Sponsor</strong></td>
+              <td>₹15,000</td>
+              <td>
+                Logo on website & posters, social media shoutouts, recognition
+                in announcements.
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Swag Sponsors</strong></td>
+              <td>Starting ₹5,000+</td>
+              <td>
+                Get your brand in their hands! Name on our website, special swag
+                page feature, and social media shoutouts.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <div class="two-column">
+        <div class="image-placeholder">
+          <p>
+            Placeholder for a picture of team members or another event shot.
+          </p>
+        </div>
+        <div class="image-placeholder">
+          <p>Placeholder for sponsor logos or a group photo.</p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <h2>Over and Out!</h2>
+        <p>
+          Ready to join the adventure and leave your mark on the future of tech?
+          Let's collaborate.
+        </p>
+        <p>
+          <strong>Contact Us:</strong>
+          <a href="mailto:outreachcloudnativedurgapur@gmail.com"
+            >outreachcloudnativedurgapur@gmail.com</a
+          >
+        </p>
+        <p><strong>Location:</strong> Durgapur, West Bengal</p>
+        <h3>Power the Cloud. Spark the Future. Friends Don't Lie.</h3>
+      </footer>
+    </div>
+  </body>
+</html>
